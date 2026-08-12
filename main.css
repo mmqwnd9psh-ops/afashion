@@ -17,14 +17,15 @@ body {
     box-sizing: border-box;
 }
 
+/* HEADER: slimmer and neutral background so hero images pop */
 .header {
-    background-color: var(--col5);
+    background-color: #ffffff; /* changed from tan/gold to clean white */
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 20px; /* reduced vertical padding to slim header */
     align-items: center;
-    border-bottom: 3px solid var(--col3);
-    box-shadow: 3px 3px 3px var(--col4);
+    border-bottom: 1px solid #e6e6e6; /* subtle separator */
+    box-shadow: none; /* remove heavy shadow to reduce visual weight */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -40,19 +41,22 @@ body {
     display: inline;
     margin-right: 20px;
     cursor: pointer;
+    color: #222; /* darker nav text on white background */
+    font-weight: 600;
 }
 
 .menu li:hover, .home {
     color: var(--col2);
-    text-shadow: 2px 2px 1px var(--col3);
+    text-shadow: none;
     border-bottom: 3px solid var(--col2);
     padding-bottom: 5px;
-    box-shadow: 0 2px 1px var(--col3);
+    box-shadow: none;
 }
 
 .log span {
     margin-left: 15px;
     cursor: pointer;
+    color: #333;
 }
 
 .body {
@@ -63,9 +67,10 @@ body {
 
 .logo {
     font-family: "Sekuya", system-ui, sans-serif;
-    font-size: 30px;
+    font-size: 28px; /* slightly smaller to match reduced header */
     color: var(--col2);
     text-shadow: 2px 2px 2px var(--col4);
+    font-weight: 800;
 }
 
 /* COVER / HERO IMAGES - responsive and preserve aspect ratio */
