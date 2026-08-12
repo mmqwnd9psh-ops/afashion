@@ -88,6 +88,7 @@ body {
     max-width: 100%;
     height: 360px;            /* fixed visual height for consistent layout */
     object-fit: cover;        /* fill the area without distortion */
+    object-position: center 25%; /* keep important subject visible */
     border: 10px solid var(--col3);
     transition: transform 0.5s ease;
 }
@@ -100,7 +101,7 @@ body {
 /* Stack on small screens and reduce height */
 @media (max-width: 768px) {
     .cover { flex-direction: column; }
-    .cover img { width: 100%; height: 220px; }
+    .cover img { width: 100%; height: 220px; object-position: center top; }
 }
 
 .container {
