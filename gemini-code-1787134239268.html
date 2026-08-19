@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer Example</title>
+  
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      width: 100%;
+      background: linear-gradient(
+        to bottom,
+        #e69526 0%,
+        #f5caa0 20%,
+        #ffffff 50%,
+        #f5caa0 60%,
+        #e69526 70%,
+        #e69526 100%
+      );
+      padding: 40px 20px 20px;
+    }
+
+    /* Top columns container */
+    .footer-top {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      max-width: 900px;
+      margin: 0 auto 50px auto;
+    }
+
+    .footer-col {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-col h3 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+
+    /* Social Icons layout */
+    .social-icons {
+      display: grid;
+      grid-template-columns: repeat(2, 30px);
+      gap: 10px;
+      margin-top: 5px;
+    }
+
+    .social-icons a {
+      color: #000;
+      font-size: 24px;
+      text-decoration: none;
+      transition: transform 0.2s ease;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.15);
+    }
+
+    /* List items */
+    .footer-col ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 6px;
+    }
+
+    .footer-col ul li a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .footer-col ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Bottom SETEC banner */
+    .footer-bottom {
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .footer-bottom h1 {
+      color: #ffffff;
+      font-size: 38px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-top">
+      <!-- Column 1: Social Media -->
+      <div class="footer-col">
+        <h3>Social<br>Media</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+
+      <!-- Column 2: Contact With AD -->
+      <div class="footer-col">
+        <h3>Contact<br>With AD</h3>
+        <ul>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Terms & Condition</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Information -->
+      <div class="footer-col">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="#">Prices</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Press Room</a></li>
+          <li><a href="#">API</a></li>
+          <li><a href="#">Job</a></li>
+          <li><a href="#">Sales</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Text -->
+    <div class="footer-bottom">
+      <h1>SETEC INSTITUTE</h1>
+    </div>
+  </footer>
+
+</body>
+</html>
