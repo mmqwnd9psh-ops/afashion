@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AFashion</title>
+    <title>AFashion - Premium Fashion Store</title>
     <link rel="icon" href="1.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <!-- HEADER -->
     <div class="header">
-        <div class="logo">
-            AFashion
-        </div>
+        <div class="logo">AFASHION</div>
         <div class="menu">
             <ul>
-                <li class="home">HOME</li>
+                <li>HOME</li>
                 <li>WOMEN'S</li>
                 <li>MEN'S</li>
                 <li>SHOP</li>
@@ -29,172 +28,222 @@
             <span>Register</span>
         </div>
     </div>
-    
-    <div class="body">
-        <div class="cover">
-            <img src="1.jpg" alt="Cover 1">
-            <img src="2.jpg" alt="Cover 2">
-        </div>
-        
-        <div class="container">
-            <div class="panel_l">
-                <ul>
-                    <li>NEW IN</li>
-                    <li>WOMEN'S
-                        <ul>
-                            <li>DRESS</li>
-                            <li>CLOTHES</li>
-                            <li>BAG</li>
-                            <li>SHOES</li>
-                        </ul>
-                    </li>
-                    <li>MAN'S
-                        <ul>
-                            <li>CLOTHES</li>
-                            <li>BAG</li>
-                            <li>SHOES</li>
-                        </ul>
-                    </li>
-                    <li>BOY'S
-                        <ul>
-                            <li>CLOTHES</li>
-                            <li>BAG</li>
-                            <li>SHOES</li>
-                        </ul>
-                    </li>
-                    <li>GIRL'S
-                        <ul>
-                            <li>DRESS</li>
-                            <li>CLOTHES</li>
-                            <li>BAG</li>
-                            <li>SHOES</li>
-                        </ul>
-                    </li>
-                    <li>PROMOTION</li>
-                    <li>ON SALE</li>
-                </ul>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+        <!-- LEFT SIDEBAR -->
+        <div class="sidebar">
+            <div class="sidebar-section">
+                <h3>SHOES</h3>
+                <hr>
             </div>
-            
-            <div class="panel_M">
-                <h3>HOME</h3>
-                <div class="pro-listing">
-                    <div class="product">
-                        <img src="1.jpg" alt="Product 1">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+            <div class="sidebar-section">
+                <h3>BOY'S</h3>
+                <ul>
+                    <li>CLOTHES</li>
+                    <li>BAG</li>
+                    <li>SHOES</li>
+                </ul>
+                <hr>
+            </div>
+            <div class="sidebar-section">
+                <h3>GIRL'S</h3>
+                <ul>
+                    <li>DRESS</li>
+                    <li>CLOTHES</li>
+                    <li>BAG</li>
+                    <li>SHOES</li>
+                </ul>
+                <hr>
+            </div>
+            <div class="sidebar-section">
+                <h3>PROMOTION</h3>
+                <hr>
+            </div>
+            <div class="sidebar-section">
+                <h3>ON SALE</h3>
+                <hr>
+            </div>
+            <div class="sidebar-logo">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 50 80 Q 50 120 80 140 Q 100 155 120 180 Q 140 155 160 140 Q 190 120 190 80 Q 190 40 150 40 Q 120 40 100 60 Q 80 40 50 40 Q 10 40 50 80" fill="#FFD700" stroke="none"/>
+                </svg>
+            </div>
+        </div>
+
+        <!-- CENTER - PRODUCTS -->
+        <div class="products-section">
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="1.jpg" alt="Product 1">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="2.jpg" alt="Product 2">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="2.jpg" alt="Product 2">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="3.jpg" alt="Product 3">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="3.jpg" alt="Product 3">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="4.jpg" alt="Product 4">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="4.jpg" alt="Product 4">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="5.jpg" alt="Product 5">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="5.jpg" alt="Product 5">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="6.jpg" alt="Product 6">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="6.jpg" alt="Product 6">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="7.jpg" alt="Product 7">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <img src="7.jpg" alt="Product 7">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="8.jpg" alt="Product 8">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <img src="8.jpg" alt="Product 8">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <div class="product">
-                        <img src="9.jpg" alt="Product 9">
-                        <div class="pro_name">Trousers With Slits</div>
-                        <div class="pro_rating">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <div class="pro_price">16.9$</div>
+                    <p class="price">16.9$</p>
+                </div>
+
+                <!-- Product 9 -->
+                <div class="product-card">
+                    <img src="9.jpg" alt="Product 9">
+                    <h4>Trousers With Slits</h4>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
+                    <p class="price">16.9$</p>
                 </div>
             </div>
-            
-            <div class="panel_r">
+        </div>
+
+        <!-- RIGHT SIDEBAR -->
+        <div class="sidebar-right"></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Social Media</h4>
+                <div class="social-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-telegram"></i>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact With AD</h4>
+                <ul>
+                    <li>Team</li>
+                    <li>Careers</li>
+                    <li>Contact Us</li>
+                    <li>Terms & Condition</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Information</h4>
+                <ul>
+                    <li>Prices</li>
+                    <li>About US</li>
+                    <li>Press Room</li>
+                    <li>API</li>
+                    <li>Job</li>
+                    <li>Sales</li>
+                </ul>
             </div>
         </div>
-    </div>
-    
-    <div class="footer">
-    </div>
+
+        <div class="footer-bottom">
+            <h3>SETEC INSTITUTE</h3>
+        </div>
+    </footer>
 </body>
 </html>
